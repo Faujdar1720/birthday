@@ -33,6 +33,7 @@
       color: white;
       text-align: center;
       position: relative;
+      padding-bottom: 50px; /* Ensure content doesn't overlap footer */
     }
 
     h1 {
@@ -154,7 +155,7 @@
     /* Responsive adjustments */
     @media (max-width: 600px) {
       h1 {
-        font-size: 2.2em; /* Reduce font size on mobile */
+        font-size: 2em; /* Reduce font size on mobile */
       }
 
       .poem {
@@ -176,6 +177,16 @@
       .heart {
         font-size: 40px; /* Resize heart */
       }
+
+      .balloon {
+        width: 40px;
+        height: 60px;
+      }
+
+      /* Add some padding to make it more mobile-friendly */
+      body {
+        padding: 10px;
+      }
     }
   </style>
 </head>
@@ -185,15 +196,14 @@
 
   <!-- Poem with typewriter effect -->
   <div class="poem">
-    "With every heartbeat, I love you more,  
-    A love so deep, it's worth fighting for."  
+    "You are my sunshine,  
+    My heart's only desire."  
   </div>
 
   <!-- Previous Poem -->
   <div class="poem">
     "With you I feel whole 🫂,  
-     You complete my soul 💖  
-    "  
+     You complete my soul 💖"  
   </div>
 
   <!-- Heart Animation -->
